@@ -1,0 +1,40 @@
+* {
+  background-color: lightblue;
+}
+
+h1 {
+  width: 1500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.name {
+  width: 100%;
+}
+
+header {
+  display: flex;
+}
+
+li {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.nav-container {
+  flex-flow: row nowrap;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.headshot {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#my-work {
+  display: flex;
+}
