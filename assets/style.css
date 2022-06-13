@@ -35,6 +35,14 @@ li {
   text-align: center;
 }
 
+#about-me {
+  display: flex;
+}
+
 #my-work {
+  display: flex;
+}
+
+#contact {
   display: flex;
 }
