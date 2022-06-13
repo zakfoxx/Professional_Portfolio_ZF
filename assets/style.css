@@ -1,11 +1,12 @@
 * {
+  box-sizing: border-box;
   background-color: lightblue;
 }
 
-h1 {
+header h1 {
   width: 1500px;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 
 .name {
@@ -14,25 +15,33 @@ h1 {
 
 header {
   display: flex;
+  font-size: 200%;
 }
 
-li {
-  display: inline-block;
+header ul li {
+  display: flex;
   font-size: 20px;
+  justify-content: space-between;
+  flex-direction: row;
+  text-decoration: underline;
 }
 
-.nav-container {
+header nav {
   flex-flow: row nowrap;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: flex-start;
   width: 50%;
+  text-decoration: none;
 }
 
+/* nav ul a { */
+
 .headshot {
-  width: 1000px;
+  display: flex;
+  width: 1500px;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 
 #about-me {
