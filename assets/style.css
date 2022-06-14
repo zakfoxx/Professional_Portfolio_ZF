@@ -27,12 +27,11 @@ header ul li {
 }
 
 header nav {
-  flex-flow: row nowrap;
   flex-direction: row;
-  flex-wrap: nowrap;
   justify-content: flex-start;
   width: 50%;
   text-decoration: none;
+  width: fit-content;
 }
 
 /* nav ul a { */
@@ -54,4 +53,11 @@ header nav {
 
 #contact {
   display: flex;
+}
+
+.run-buddy img {
+  display: flex;
+  width: 500px;
+  margin: 0 auto;
+  text-align: left;
 }
