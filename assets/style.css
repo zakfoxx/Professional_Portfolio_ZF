@@ -15,10 +15,11 @@
 
 h1 {
   display: flex;
-  color: lightblue;
+  color: gray;
   margin-left: 5%;
   margin-right: 45%;
   font-size: 100%;
+  background-color: lightblue;
 }
 
 ul {
@@ -85,6 +86,9 @@ header nav {
 
 .headshot img {
   width: 250px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
 }
 
 #about-me {
@@ -97,9 +101,10 @@ header nav {
   display: flex;
 }
 
-#about-me h2 {
+h2 {
   border-right: solid 10px black;
   margin-top: 100px;
+  margin-right: 25px;
 }
 
 #about-me h3 {
@@ -119,8 +124,8 @@ header nav {
 
 #my-work {
   display: flex;
-  flex-wrap: wrap;
-  border-right: solid 10px black;
+  justify-content: flex-end;
+  margin-left: 500px;
 }
 
 #my-work h2 {
@@ -133,9 +138,23 @@ header nav {
   border-right: solid 10px black;
 }
 
+.container {
+  position: relative;
+  width: 750px;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: lightblue;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .run-buddy img {
   display: flex;
-  width: 750px;
   align-items: flex-start;
   padding-bottom: 5%;
   flex-grow: 1;
@@ -143,11 +162,10 @@ header nav {
   margin-top: 100px;
 }
 
-#run-buddy-text {
+.run-buddy-text {
   display: flex;
   color: black;
   background-image: url(".images/hero-bbg.png");
-  height: 300px;
   background-size: auto;
   background-repeat: no-repeat;
 }
