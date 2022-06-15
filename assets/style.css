@@ -2,8 +2,6 @@
   box-sizing: border-box;
 }
 
-/* header h1 { */
-
 #header {
   display: flex;
   font-size: 200%;
@@ -50,7 +48,7 @@ li {
   text-align: center;
 }
 
-/* header nav {
+header nav {
   background-color: red;
   position: flex;
   left: auto;
@@ -59,9 +57,8 @@ li {
   height: 150px;
   width: 1400px;
   border-bottom: solid;
-} */
-
-/* .navbar {
+}
+.navbar {
   background-color: red;
   position: flex;
   left: auto;
@@ -69,20 +66,23 @@ li {
   top: 0px;
   height: 150px;
   width: 1400px;
-  border-bottom: solid; */
-/* } */
-
-/* nav ul a { */
+  border-bottom: solid;
+}
 
 .headshot {
   display: flex;
-  width: 1500px;
-  margin: 0 auto;
-  text-align: left;
+  align-items: flex-start;
+  padding-bottom: 5%;
+}
+
+.headshot img {
+  width: 250px;
 }
 
 #about-me {
   display: flex;
+  margin-left: 50px;
+  padding-top: 50px;
 }
 
 #my-work {
@@ -95,7 +95,7 @@ li {
 
 .run-buddy img {
   display: flex;
-  width: 500px;
+  width: 750px;
   align-items: flex-start;
   padding-bottom: 5%;
   flex-grow: 1;
