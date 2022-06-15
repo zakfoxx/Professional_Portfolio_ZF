@@ -74,7 +74,7 @@ li {
 
 /* nav ul a { */
 
-/* .headshot {
+.headshot {
   display: flex;
   width: 1500px;
   margin: 0 auto;
@@ -87,8 +87,8 @@ li {
 
 #my-work {
   display: flex;
+  flex-wrap: wrap;
 }
-
 #contact {
   display: flex;
 }
@@ -98,6 +98,7 @@ li {
   width: 500px;
   align-items: flex-start;
   padding-bottom: 5%;
+  flex-grow: 1;
 }
 
 .git {
@@ -110,4 +111,4 @@ li {
   justify-content: end;
   width: 10px;
   max-height: 10px;
-} */
+}
