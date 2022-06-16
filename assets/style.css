@@ -47,7 +47,7 @@ li {
 }
 
 #subtitle {
-  color: darkblue;
+  color: black;
   background-color: lightblue;
   height: 50px;
   width: 350px;
@@ -137,10 +137,12 @@ h2 {
   justify-content: flex-end;
   margin-left: 600px;
   margin-right: 600px;
+  margin-bottom: auto;
+  margin-top: auto;
   height: 100px;
 }
 #contact h2 {
-  border-right: solid 10px black;
+  display: flex;
   border-bottom: 100px;
   margin-top: 100px;
 }
@@ -170,38 +172,48 @@ h2 {
 .run-buddy img {
   display: flex;
   align-items: flex-start;
-  padding-bottom: 5%;
+  padding-bottom: 0;
   flex-grow: 1;
-  margin-left: 100px;
+  margin-right: 1500px;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 400px;
   position: relative;
+  width: 1000px;
+  height: 500px;
 }
 
 .run-buddy-text {
-  display: flex;
   color: black;
-  background-image: url(".images/hero-bbg.png");
-  background-size: auto;
-  background-repeat: no-repeat;
-  position: absolute;
+  background-color: lightblue;
+  height: 25px;
+  width: 50px;
+  margin-left: 50%;
+  margin-top: 50%;
+  position: relative;
+  text-align: center;
+  font-size: 16px;
 }
 
 #small-images {
   display: flex;
   align-items: center;
+  border-bottom: 1000px;
 }
 
 .robots {
   display: flex;
   width: 10px;
   max-height: 20px;
+  margin-left: 500px;
+  float: right;
 }
 
 .horiseon {
   display: flex;
   width: 20px;
   max-height: 40px;
+  margin-bottom: 125px;
+  align-items: flex-end;
 }
 
 .git {
