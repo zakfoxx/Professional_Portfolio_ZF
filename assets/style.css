@@ -89,6 +89,7 @@ header nav {
   margin-left: 25px;
   margin-right: 25px;
   margin-top: 25px;
+  border: 5px solid lightblue;
 }
 
 #about-me {
@@ -133,12 +134,25 @@ h2 {
 }
 #contact {
   display: flex;
+  justify-content: flex-end;
+  margin-left: 600px;
+  margin-right: 600px;
+  height: 100px;
 }
 #contact h2 {
   border-right: solid 10px black;
+  border-bottom: 100px;
+  margin-top: 100px;
+}
+
+#contact h3 {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .container {
+  flex: auto;
   position: relative;
   width: 750px;
 }
@@ -160,6 +174,8 @@ h2 {
   flex-grow: 1;
   margin-left: 100px;
   margin-top: 100px;
+  margin-bottom: 100px;
+  position: relative;
 }
 
 .run-buddy-text {
@@ -168,18 +184,35 @@ h2 {
   background-image: url(".images/hero-bbg.png");
   background-size: auto;
   background-repeat: no-repeat;
+  position: absolute;
+}
+
+#small-images {
+  display: flex;
+  align-items: center;
+}
+
+.robots {
+  display: flex;
+  width: 10px;
+  max-height: 20px;
+}
+
+.horiseon {
+  display: flex;
+  width: 20px;
+  max-height: 40px;
 }
 
 .git {
   display: flex;
-  align-items: flex-end;
-  width: 10px;
+  width: 20px;
   max-height: 10px;
 }
 
 .linkedin {
   display: flex;
   justify-content: end;
-  width: 10px;
+  width: 20px;
   max-height: 10px;
 }
