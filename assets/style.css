@@ -196,35 +196,55 @@ h2 {
 
 #small-images {
   display: flex;
-  align-items: center;
-  border-bottom: 1000px;
+  justify-content: center;
+  position: absolute;
+}
+
+#small-images {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-top: -350px;
 }
 
 .robots {
   display: flex;
   width: 10px;
-  max-height: 20px;
   margin-left: 500px;
   float: right;
 }
 
 .horiseon {
   display: flex;
-  width: 20px;
-  max-height: 40px;
-  margin-bottom: 125px;
-  align-items: flex-end;
+  width: 60px;
+  max-height: 80px;
+  width: 10px;
+  margin-left: 200px;
+  float: right;
+  margin-top: 45px;
+}
+
+#small-images-bottom {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-top: -180px;
+  margin-left: 500px;
 }
 
 .git {
   display: flex;
-  width: 20px;
-  max-height: 10px;
+  width: 60px;
+  max-height: 20px;
+  width: 10px;
+  margin-left: 500px;
 }
 
 .linkedin {
   display: flex;
-  justify-content: end;
   width: 20px;
   max-height: 10px;
+  display: flex;
+  width: 10px;
+  margin-left: 500px;
 }
