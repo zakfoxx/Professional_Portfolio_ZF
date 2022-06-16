@@ -159,16 +159,6 @@ h2 {
   width: 750px;
 }
 
-.bottom-left {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  background-color: lightblue;
-  color: black;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
 .run-buddy img {
   display: flex;
   align-items: flex-start;
@@ -180,18 +170,6 @@ h2 {
   position: relative;
   width: 1000px;
   height: 500px;
-}
-
-.run-buddy-text {
-  color: black;
-  background-color: lightblue;
-  height: 25px;
-  width: 50px;
-  margin-left: 50%;
-  margin-top: 50%;
-  position: relative;
-  text-align: center;
-  font-size: 16px;
 }
 
 #small-images {
@@ -218,6 +196,7 @@ h2 {
   display: flex;
   width: 60px;
   max-height: 80px;
+  display: flex;
   width: 10px;
   margin-left: 200px;
   float: right;
@@ -236,8 +215,10 @@ h2 {
   display: flex;
   width: 60px;
   max-height: 20px;
+  display: flex;
   width: 10px;
   margin-left: 500px;
+  padding-left: 100;
 }
 
 .linkedin {
@@ -247,4 +228,21 @@ h2 {
   display: flex;
   width: 10px;
   margin-left: 500px;
+}
+
+@media screen and (max-width: 980px) {
+}
+
+#header {
+  position: relative;
+}
+
+#banner {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 575px) {
 }
