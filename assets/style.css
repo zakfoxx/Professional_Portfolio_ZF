@@ -125,8 +125,7 @@ h2 {
 
 #my-work {
   display: flex;
-  justify-content: flex-end;
-  margin-left: 500px;
+  flex-wrap: wrap;
 }
 
 #my-work h2 {
@@ -153,10 +152,10 @@ h2 {
   margin-bottom: 100px;
 }
 
-.container {
+#container {
   flex: auto;
-  position: relative;
-  width: 750px;
+  /* position: relative; */
+  width: 95%;
 }
 
 .run-buddy img {
@@ -183,24 +182,21 @@ h2 {
   justify-content: center;
   position: absolute;
   margin-top: -350px;
+  flex-wrap: wrap;
 }
 
 .robots {
   display: flex;
-  width: 10px;
+  width: 50%;
   margin-left: 500px;
   float: right;
 }
 
 .horiseon {
   display: flex;
-  width: 60px;
-  max-height: 80px;
-  display: flex;
-  width: 10px;
-  margin-left: 200px;
+  width: 50%;
+  margin-left: 500px;
   float: right;
-  margin-top: 45px;
 }
 
 #small-images-bottom {
@@ -213,21 +209,16 @@ h2 {
 
 .git {
   display: flex;
-  width: 60px;
-  max-height: 20px;
-  display: flex;
-  width: 10px;
+  width: 50%;
   margin-left: 500px;
-  padding-left: 100;
+  float: right;
 }
 
 .linkedin {
   display: flex;
-  width: 20px;
-  max-height: 10px;
-  display: flex;
-  width: 10px;
+  width: 50%;
   margin-left: 500px;
+  float: right;
 }
 
 @media screen and (max-width: 980px) {
