@@ -95,7 +95,7 @@ header nav {
 #about-me {
   display: flex;
   justify-content: flex-end;
-  /* margin-left: 500px; */
+  margin-left: 500px;
 }
 
 .sections {
@@ -117,14 +117,13 @@ h2 {
 #intro {
   display: flex;
   margin-top: 75px;
-  /* margin-left: 100px;
-  margin-right: 500px; */
+  margin-left: 100px;
+  margin-right: 500px;
   border: 10px;
   font-size: small;
 }
 
 #my-work {
-  justify-content: center;
   display: flex;
   flex-wrap: wrap;
 }
@@ -164,41 +163,40 @@ h2 {
   align-items: flex-start;
   padding-bottom: 0;
   flex-grow: 1;
-  /* margin-right: 1500px; */
+  margin-right: 1500px;
   margin-top: 100px;
   margin-bottom: 400px;
   position: relative;
-  width: 100%;
-  /* height: 500px; */
+  width: 1000px;
+  height: 500px;
 }
 
 #small-images {
   display: flex;
   justify-content: center;
-  /* position: absolute; */
-  flex-wrap: wrap;
+  position: absolute;
 }
 
-/* #small-images {
+#small-images {
   display: flex;
   justify-content: center;
   position: absolute;
   margin-top: -350px;
-  flex-wrap: wrap; 
-  } */
+  flex-wrap: wrap;
+}
 
 .robots {
   display: flex;
   width: 50%;
-  /* margin-left: 500px;
-  float: right; */
+  margin-left: 500px;
+  float: right;
 }
 
 .horiseon {
   display: flex;
   width: 50%;
-  /* margin-left: 500px;
-  float: right; */
+  margin-left: 500px;
+  float: right;
 }
 
 #small-images-bottom {
@@ -212,20 +210,15 @@ h2 {
 .git {
   display: flex;
   width: 50%;
-  /* margin-left: 500px;
-  float: right; */
+  margin-left: 500px;
+  float: right;
 }
 
 .linkedin {
   display: flex;
   width: 50%;
-  /* margin-left: 500px;
-  float: right; */
-}
-
-.yoda {
-  display: flex;
-  width: 50%;
+  margin-left: 500px;
+  float: right;
 }
 
 @media screen and (max-width: 980px) {
